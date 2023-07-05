@@ -1,0 +1,40 @@
+# Contributing to SlowGrub
+
+Thank you for your interest in contributing to SlowGrub! This document outlines the process and guidelines for contributing.
+
+## Getting Started
+
+- Fork the repository on GitHub.
+- Clone the forked repository to your local machine.
+- Create a new branch for your feature or bugfix.
+
+## Coding Standards
+
+- Follow standard coding conventions for the language you are using.
+- Write clean, readable, and maintainable code.
+- Comment your code when necessary.
+
+## Submitting Changes
+
+- Commit your changes in logical chunks; use git rebase if needed to combine or modify commits.
+- Push your changes to your fork on GitHub.
+- Submit a pull request to the main repository.
+- Wait for a maintainer to review your pull request. Address any comments or requested changes.
+
+## Testing
+
+- Write tests for your code to ensure that it is robust and meets requirements.
+- Ensure that all tests pass before submitting a pull request.
+
+## Reporting Issues
+
+- Check if the issue has already been reported.
+- Open a new issue and provide a detailed description of the problem.
+- Include screenshots if applicable.
+
+## Community
+
+- Be respectful and considerate of others.
+- Follow the code of conduct for the community.
+
+Thank you for contributing to SlowGrub!
