@@ -8,6 +8,12 @@ body, html {
     color: #B24B0D; /* Secondary color */
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -28,12 +34,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 0;
     background-color: #B24B0D; /* Secondary color */
-}
-
-nav .logo img {
-    height: 60px;
 }
 
 nav ul li {
@@ -52,30 +54,35 @@ nav a:hover {
     color: #B24B0D; /* Secondary color */
 }
 
+/* Main Image */
+.main-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-image img {
+    width: 100%;
+    display: block;
+    max-height: 90vh;
+}
+
 /* Hero Section */
 .hero {
-    position: relative;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('branding/App Mockscreen.png');
-    background-size: cover;
-    background-position: center;
-    color: #F7EDE7; /* Primary color */
+    padding: 50px 0;
 }
 
 h1 {
     font-size: 3em;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 p {
     font-size: 1.5em;
     margin-bottom: 20px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Features Section */
@@ -123,7 +130,7 @@ p {
 
 /* Footer */
 footer {
-    padding: 20px 50px;
+    padding: 20px 0;
     background-color: #B24B0D; /* Secondary color */
     color: #F7EDE7; /* Primary color */
     text-align: center;
