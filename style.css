@@ -12,12 +12,6 @@ body {
     line-height: 1.5;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -30,15 +24,15 @@ a:hover {
 
 ul {
     list-style-type: none;
+    padding-left: 20px;
 }
 
-/* Header Section */
 header {
     background-image: url('branding/Slowgrub App Mockup.png');
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding: 100px 0;
+    padding: 150px 0;
     color: #F7EDE7;
 }
 
@@ -47,10 +41,14 @@ header h1 {
     margin-bottom: 15px;
 }
 
-/* Call to Action Section */
 section {
     padding: 50px 0;
     text-align: center;
+}
+
+section:nth-child(odd) {
+    background-color: #B24B0D;
+    color: #F7EDE7;
 }
 
 section a {
@@ -58,21 +56,25 @@ section a {
     margin: 10px;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #B24B0D;
-    color: #F7EDE7;
-}
-
-section a:hover {
     background-color: #F7EDE7;
     color: #B24B0D;
 }
 
-/* Team Section */
-.team-member {
-    margin: 20px 0;
+section a:hover {
+    background-color: #B24B0D;
+    color: #F7EDE7;
 }
 
-/* Footer Section */
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.google-form {
+    width: 80%;
+    margin: 20px auto;
+}
+
 footer {
     background-color: #B24B0D;
     color: #F7EDE7;
