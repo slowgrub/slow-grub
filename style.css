@@ -5,6 +5,7 @@ body, html {
     font-family: 'SF Pro', sans-serif;
     color: #B24B0D; /* Primary Color */
     background-color: #F7EDE7; /* Background Color */
+    text-align: center;
 }
 
 a {
@@ -23,22 +24,45 @@ ul {
     padding: 0;
 }
 
-/* Hero Section */
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #B24B0D;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #F7EDE7;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #F7EDE7;
+    color: #B24B0D;
+}
+
+/* Hero Section (App Look) */
 header {
-    height: 100vh;
+    height: 60vh; /* Adjusted height for desktop view */
     background: url('branding/App Mockscreen.png') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 h1, h2 {
     color: #B24B0D; /* Primary Color */
+    margin: 20px 0;
 }
 
-/* Get Involved Section */
+/* Generic section styling */
 section {
     padding: 50px;
     text-align: center;
@@ -51,6 +75,7 @@ section a {
     background-color: #B24B0D;
     color: #F7EDE7;
     border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
 /* Team Section */
