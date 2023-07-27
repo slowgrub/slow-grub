@@ -3,21 +3,24 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'SF Pro', sans-serif;
-    color: #B24B0D;
-    background-color: #F7EDE7;
+    color: #B24B0D; /* Primary Color */
+    background-color: #F7EDE7; /* Background Color */
 }
 
 a {
     color: #B24B0D;
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #F7EDE7;
+    background-color: #B24B0D;
 }
 
 ul {
     list-style: none;
-}
-
-h1, h2 {
-    color: #B24B0D;
+    padding: 0;
 }
 
 /* Hero Section */
@@ -29,32 +32,31 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px;
 }
 
-/* General Section Styling */
+h1, h2 {
+    color: #B24B0D; /* Primary Color */
+}
+
+/* Get Involved Section */
 section {
     padding: 50px;
+    text-align: center;
 }
 
 section a {
     display: inline-block;
-    margin: 10px 0;
+    margin: 10px;
     padding: 10px 20px;
     background-color: #B24B0D;
     color: #F7EDE7;
     border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-section a:hover {
-    background-color: #F7EDE7;
-    color: #B24B0D;
 }
 
 /* Team Section */
 .team-member {
     text-align: center;
+    margin: 20px;
 }
 
 .team-member img {
@@ -62,6 +64,7 @@ section a:hover {
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 /* Footer */
