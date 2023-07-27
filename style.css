@@ -1,94 +1,73 @@
-/* Reset & Basic Styles */
-* {
+/* Basic Styles */
+body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
     font-family: 'SF Pro', sans-serif;
-    color: #B24B0D; /* Primary color */
-    background-color: #F7EDE7; /* Secondary color */
-    line-height: 1.5;
+    color: #B24B0D;
+    background-color: #F7EDE7;
 }
 
 a {
+    color: #B24B0D;
     text-decoration: none;
-    color: inherit;
-    transition: 0.3s;
-}
-
-a:hover {
-    opacity: 0.8;
 }
 
 ul {
-    list-style-type: none;
-    padding-left: 20px;
+    list-style: none;
 }
 
+h1, h2 {
+    color: #B24B0D;
+}
+
+/* Hero Section */
 header {
-    background-image: url('branding/Slowgrub App Mockup.png');
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
+    background: url('branding/App Mockscreen.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 150px 0;
-    color: #F7EDE7;
+    padding: 50px;
 }
 
-header h1 {
-    font-size: 3em;
-    margin-bottom: 15px;
-}
-
+/* General Section Styling */
 section {
-    padding: 50px 0;
-    text-align: center;
-}
-
-section:nth-child(odd) {
-    background-color: #B24B0D;
-    color: #F7EDE7;
+    padding: 50px;
 }
 
 section a {
     display: inline-block;
-    margin: 10px;
+    margin: 10px 0;
     padding: 10px 20px;
+    background-color: #B24B0D;
+    color: #F7EDE7;
     border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+section a:hover {
     background-color: #F7EDE7;
     color: #B24B0D;
 }
 
-section a:hover {
-    background-color: #B24B0D;
-    color: #F7EDE7;
-}
-
-h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.google-form {
-    width: 80%;
-    margin: 20px auto;
-}
-
-footer {
-    background-color: #B24B0D;
-    color: #F7EDE7;
+/* Team Section */
+.team-member {
     text-align: center;
-    padding: 15px 0;
 }
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    header {
-        padding: 50px 0;
-    }
+.team-member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
-    header h1 {
-        font-size: 2em;
-    }
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #B24B0D;
+    color: #F7EDE7;
 }
