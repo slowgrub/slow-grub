@@ -51,13 +51,15 @@ nav a {
 }
 
 /* Hero Section (App Look) */
-header {
-    height: 50vh; /* Adjusted to cover 50% of the screen */
-    background: url('branding/App Mockscreen.png') no-repeat center center/cover;
+.hero-container {
+    height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background: url('branding/App Mockscreen.png') no-repeat center center;
+    background-size: 40%;
+    padding: 50px 0;
 }
 
 h1, h2 {
