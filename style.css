@@ -78,7 +78,27 @@ section {
     border-radius: 50%;
     margin-bottom: 20px;
 }
+nav {
+    ...
+}
 
+.hero-image {
+    ...
+}
+
+/* ... (all other component-specific styles) ... */
+
+/* ----- Responsive Styles ----- */
+
+/* For tablets */
+@media only screen and (max-width: 768px) {
+    ...
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 480px) {
+    ...
+}
 /* Footer */
 footer {
     text-align: center;
