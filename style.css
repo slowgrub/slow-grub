@@ -1,52 +1,45 @@
-body {
+body, html {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    height: 100%;
+    overflow: hidden;
 }
 
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with opacity */
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place image behind the content */
 }
 
 h1 {
-    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
-.app-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto 20px;
-}
-
-.email-form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.email-form input {
-    flex-grow: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-.email-form button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #333;
-    color: #fff;
-}
-
-@media (max-width: 600px) {
-    .email-form {
-        flex-direction: column;
-    }
-
-    .email-form button {
-        width: 100%;
-    }
+.google-form {
+    width: 80%;
+    max-width: 500px;
 }
