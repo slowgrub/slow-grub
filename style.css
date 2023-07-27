@@ -1,17 +1,21 @@
 /* Reset & Basic Styles */
-body, html {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'SF Pro', sans-serif;
-    height: 100%;
-    background-color: #F7EDE7; /* Primary color */
-    color: #B24B0D; /* Secondary color */
+    color: #B24B0D; /* Primary color */
+    background-color: #F7EDE7; /* Secondary color */
+    line-height: 1.5;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 15px;
 }
 
 a {
@@ -26,129 +30,63 @@ a:hover {
 
 ul {
     list-style-type: none;
-    padding: 0;
 }
 
-/* Navbar */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    background-color: #B24B0D; /* Secondary color */
+/* Header Section */
+header {
+    background-image: url('branding/Slowgrub App Mockup.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #F7EDE7;
 }
 
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav a {
-    color: #F7EDE7; /* Primary color */
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-nav a:hover {
-    background-color: #F7EDE7; /* Primary color */
-    color: #B24B0D; /* Secondary color */
-}
-
-/* Main Image */
-.main-image {
-    width: 100%;
-    overflow: hidden;
-}
-
-.main-image img {
-    width: 100%;
-    display: block;
-    max-height: 90vh;
-}
-
-/* Hero Section */
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
-}
-
-h1 {
+header h1 {
     font-size: 3em;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-p {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-}
-
-/* Features Section */
-#features {
-    padding: 50px 10%;
-    background-color: #B24B0D; /* Secondary color */
-    color: #F7EDE7; /* Primary color */
-}
-
-#features h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+/* Call to Action Section */
+section {
+    padding: 50px 0;
     text-align: center;
 }
 
-#features ul li {
-    font-size: 1.3em;
-    margin: 15px 0;
+section a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #B24B0D;
+    color: #F7EDE7;
 }
 
-/* Contact/Form Section */
-#contact {
-    padding: 50px 10%;
-    background-color: #F7EDE7; /* Primary color */
+section a:hover {
+    background-color: #F7EDE7;
+    color: #B24B0D;
 }
 
-#contact h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-align: center;
+/* Team Section */
+.team-member {
+    margin: 20px 0;
 }
 
-/* Privacy Policy Section */
-#privacy-policy {
-    padding: 50px 10%;
-    background-color: #B24B0D; /* Secondary color */
-    color: #F7EDE7; /* Primary color */
-}
-
-#privacy-policy h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-/* Footer */
+/* Footer Section */
 footer {
-    padding: 20px 0;
-    background-color: #B24B0D; /* Secondary color */
-    color: #F7EDE7; /* Primary color */
+    background-color: #B24B0D;
+    color: #F7EDE7;
     text-align: center;
+    padding: 15px 0;
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
+    header {
+        padding: 50px 0;
     }
 
-    nav ul {
-        padding-top: 20px;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
+    header h1 {
+        font-size: 2em;
     }
 }
