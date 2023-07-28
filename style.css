@@ -7,44 +7,44 @@ body, html {
     background-color: #F7EDE7;
     text-align: center;
 }
-
+/* Center everything in the container */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: left;
-    padding: 0 15px;
+    text-align: center;
 }
 
-a, a:visited {
-    color: #B24B0D;
-    text-decoration: none;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
+/* Center and justify text */
+p, h1, h2, h3, li {
+    text-align: justify;
+    text-justify: inter-word; /* Improve justification */
 }
 
-a:hover, a:focus {
-    color: #F7EDE7;
-    background-color: #B24B0D;
+/* Center inline elements like links */
+a {
+    display: inline-block;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+/* Center block elements */
+section, .team-members, nav ul {
+    width: 80%; /* Adjust this value as needed */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Navigation Bar */
-nav {
-    background-color: #F7EDE7;
-    padding: 10px 0;
-}
-
+/* For the navbar, to ensure it remains horizontally centered */
 nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 0;
 }
+
+/* To ensure images and other block-level elements within sections are centered */
+section > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Hero Section (App Look) */
 #app-look {
@@ -142,4 +142,11 @@ footer a:hover, footer a:focus {
     .container {
         padding: 0 10px;
     }
+}
+#social-media.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;  /* This ensures the items are stacked vertically */
 }
