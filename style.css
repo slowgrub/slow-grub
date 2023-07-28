@@ -84,9 +84,13 @@ section {
 }
 
 /* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #B24B0D;
-    color: #F7EDE7;
+footer a {
+    color: #B24B0D; /* Primary Color */
+    text-decoration: underline; /* Optional: to make it distinct as a link */
 }
+
+footer a:hover {
+    color: #F7EDE7; /* Making it a bit interactive on hover */
+    background-color: #B24B0D;
+}
+
