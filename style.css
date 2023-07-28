@@ -128,3 +128,18 @@ footer a:hover, footer a:focus {
 .multimedia.video {
     /* Additional stylings for video if required */
 }
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+}
