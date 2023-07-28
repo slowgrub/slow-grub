@@ -5,6 +5,14 @@ body, html {
     font-family: 'SF Pro', sans-serif;
     color: #B24B0D; /* Primary Color */
     background-color: #F7EDE7; /* Background Color */
+    text-align: center; /* To center everything by default */
+}
+
+.container {
+    max-width: 1200px; /* Or adjust as needed */
+    margin: 0 auto;
+    text-align: left; /* To left-align the content inside */
+    padding: 0 15px; /* Some padding to prevent content from sticking to the screen edges on smaller devices */
 }
 
 a {
@@ -56,13 +64,9 @@ h1, h2 {
     margin: 20px 0;
 }
 
-/* The rest of the CSS remains the same as provided before */
-
-
 /* Generic section styling */
 section {
     padding: 50px;
-    text-align: center;
 }
 
 /* Team Section */
@@ -78,27 +82,7 @@ section {
     border-radius: 50%;
     margin-bottom: 20px;
 }
-nav {
-    ...
-}
 
-.hero-image {
-    ...
-}
-
-/* ... (all other component-specific styles) ... */
-
-/* ----- Responsive Styles ----- */
-
-/* For tablets */
-@media only screen and (max-width: 768px) {
-    ...
-}
-
-/* For mobile phones */
-@media only screen and (max-width: 480px) {
-    ...
-}
 /* Footer */
 footer {
     text-align: center;
