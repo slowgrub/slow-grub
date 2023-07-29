@@ -70,6 +70,3 @@ layout: default
         </div>
     </div>
 </section>
-
-
-</div>
