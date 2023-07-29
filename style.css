@@ -146,26 +146,63 @@ nav a:hover {
     }
 }
 
-/* Footer Styles */
+/* Setting font and basic colors */
+body, html {
+    font-family: 'SF Pro', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 0;
+}
+
+/* Navigation links */
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+/* Footer */
 footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px;
 }
 
+/* Social media links */
 #social-media {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    gap: 10px; /* space between links */
+    margin-top: 15px; /* space from other footer content */
 }
 
 footer a, footer a:visited {
     color: var(--secondary-color);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer a:hover, footer a:focus {
