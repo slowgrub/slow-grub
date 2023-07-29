@@ -31,6 +31,9 @@ section, .team-members, nav ul {
 }
 
 /* For the navbar, to ensure it remains horizontally centered */
+nav {
+    background-color: #desiredColor;
+}
 nav ul {
     display: flex;
     justify-content: center;
