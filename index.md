@@ -2,14 +2,27 @@
 layout: default
 ---
 <div class="container">
-<!-- Hero Section (App Look) -->
-<section id="app-look" class="full-width-section">
-    <img src="branding/App Mockscreen.png" alt="app mockup">
-    <h1>An app to help you cut your food's impact on climate</h1>
-    <p>How? <br>Track, explore, and enhance your eco-friendly food habits.</p>
-    <p>Discover sustainable grub spots nearby.</p>
-    <p>Empower your food choices with sustainability insights.</p>
-</section>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#app-look">🌱 App Look</a></li>
+            <li><a href="#get-involved">🌱 Join Us</a></li>
+            <li><a href="#problems">🌱 Problems We Solve</a></li>
+            <li><a href="#achievements">🌱 Achievements</a></li>
+            <li><a href="#team">🌱 Meet the Team</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="app-look" class="full-width-section">
+        <img src="branding/App Mockscreen.png" alt="app mockup">
+        <h1>An app to help you cut your food's impact on climate</h1>
+        <p>How? <br>Track, explore, and enhance your eco-friendly food habits.</p>
+        <p>Discover sustainable grub spots nearby.</p>
+        <p>Empower your food choices with sustainability insights.</p>
+    </section>
+</div>
+
 
 <!-- Get Involved Section -->
 <section id="get-involved" class="center-content">
