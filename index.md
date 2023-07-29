@@ -68,11 +68,5 @@ layout: default
     </div>
 </section>
 
-<!-- Social Media Links -->
-<section id="social-media" class="center-content">
-    <a href="https://linkedin.com/company/slow-grub" target="_blank">LinkedIn</a>
-    <a href="https://www.facebook.com/slowgrub" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/slowgrub/" target="_blank">Instagram</a>
-    <a href="https://github.com/slowgrub/slow-grub" target="_blank">GitHub</a>
-</section>
+
 </div>
