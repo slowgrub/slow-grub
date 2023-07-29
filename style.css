@@ -130,7 +130,60 @@ section {
 .team-member img:hover {
     transform: scale(1.1);
 }
+Given the structure you've shown, I recommend placing the `.full-width-section` CSS code after the `.team-member` styles and before any other styles that may come after it. This groups it near other section-specific styles.
 
+Here's how you can place it:
+
+```css
+/* To ensure images and other block-level elements within sections are centered */
+section > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hero Section (App Look) */
+#app-look {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+h1, h2 {
+    color: #B24B0D;
+    margin: 20px 0;
+}
+
+/* Generic section styling */
+section {
+    padding: 50px;
+}
+
+/* Team Section */
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Full Width Section */
+.full-width-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+```
+
+Then, continue with any other styles that come after. This order helps maintain clarity and organization in your CSS file.
 /* Footer */
 footer {
     text-align: center;
