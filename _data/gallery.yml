@@ -1,5 +1,16 @@
-- url: /path/to/image1.jpg
-  caption: Caption for image 1
-- url: /path/to/image2.jpg
-  caption: Caption for image 2
-# ... continue adding images and captions
+- url: images/1.HEIC
+  caption: Slow Grub BBQ opening event
+- url: images/2.HEIC
+  caption: Slow Grub BBQ opening event
+- url: images/3.HEIC
+  caption: Slow Grub BBQ opening event
+- url: images/4.HEIC
+  caption: Slow Grub BBQ opening event
+- url: images/5.HEIC
+  caption: Slow Grub BBQ opening event
+- url: images/6.HEIC
+  caption: Slow Grub BBQ opening event
+- url: images/7.HEIC
+  caption: Slow Grub BBQ opening event
+- url: images/8.HEIC
+  caption: Slow Grub BBQ opening event
