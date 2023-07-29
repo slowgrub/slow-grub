@@ -1,86 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Slow Grub Blog</title>
-</head>
-<body>
- <!-- Navbar -->
-<nav>
-    <ul>
-        {% for link in site.nav %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-    </ul>
-</nav>
+---
+layout: default
+---
 
+<!-- Hero Section -->
+<section id="hero">
+    <img src="{{ '/branding/banner.jpeg' | relative_url }}" alt="Slow Grub Banner" class="hero-image">
+    <h1>News, Updates and Blogs</h1>
+    <p>Please check this page for our latest event updates, news and opportunities to get involved alongside our thought leadership on the sustainability measurement.</p>
+</section>
 
-
-    <div class="container">
-        
-        <!-- Hero Section -->
-        <section id="hero">
-            <img src="branding\banner.jpeg" alt="Slow Grub Banner" class="hero-image">
-            <h1>News, Updates and Blogs</h1>
-            <p>Please check this page for our latest event updates, news and opportunities to get involved alongside our thought leadership on the sustainability measurement.</p>
-        </section>
-
-        <!-- Blog Entry -->
-        <div class="blog-entry">
-            
-            <!-- Video Content -->
-            <div class="multimedia video">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/sGG-A80Tl5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-
-            <!-- Text Content -->
-            <div class="multimedia text">
-                <h2>Slow Grub's Remote Work Model - A Step Towards Sustainability</h2>
-                <!-- The rest of your blog content here -->
-            </div>
-            
-            <!-- Comments -->
-            <div id="comments">
-                <!-- Comments will appear here -->
-            </div>
-        </div>
-
-        <!-- Another Blog Entry -->
-        <div class="blog-entry">
-            
-            <!-- Video Content -->
-            <div class="multimedia video">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/nUnJQWO4YJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-
-            <!-- Audio Content -->
-            <div class="multimedia audio">
-                <!-- Embed your audio or podcast here -->
-            </div>
-
-            <!-- Text Content -->
-            <div class="multimedia text">
-                <!-- Your blog content here -->
-            </div>
-            
-            <!-- Comments -->
-            <div id="comments">
-                <!-- Comments will appear here -->
-            </div>
-        </div>
-
+<!-- Blog Entry -->
+<div class="blog-entry">
+    
+    <!-- Video Content -->
+    <div class="multimedia video">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/sGG-A80Tl5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <section id="social-media" class="center-content">
-            <a href="https://linkedin.com/company/slow-grub" target="_blank">LinkedIn</a>
-            <a href="https://www.facebook.com/slowgrub" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/slowgrub/" target="_blank">Instagram</a>
-            <a href="https://github.com/slowgrub/slow-grub" target="_blank">GitHub</a>
-        </section>
-    </footer>
-</body>
-</html>
+    <!-- Text Content -->
+    <div class="multimedia text">
+        <h2>Slow Grub's Remote Work Model - A Step Towards Sustainability</h2>
+        <!-- The rest of your blog content here -->
+    </div>
+    
+    <!-- Comments -->
+    <div id="comments">
+        <!-- Comments will appear here -->
+    </div>
+</div>
+
+<!-- Another Blog Entry -->
+<div class="blog-entry">
+    
+    <!-- Video Content -->
+    <div class="multimedia video">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/nUnJQWO4YJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <!-- Audio Content -->
+    <div class="multimedia audio">
+        <!-- Embed your audio or podcast here -->
+    </div>
+
+    <!-- Text Content -->
+    <div class="multimedia text">
+        <!-- Your blog content here -->
+    </div>
+    
+    <!-- Comments -->
+    <div id="comments">
+        <!-- Comments will appear here -->
+    </div>
+</div>
