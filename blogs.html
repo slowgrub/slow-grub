@@ -1,14 +1,6 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
-    <div class="blog-entry">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-        <a href="{{ post.url }}">Read more...</a>
-    </div>
-{% endfor %}
-
 <!-- Hero Section -->
 <section id="hero">
     <img src="{{ '/branding/banner.jpeg' | relative_url }}" alt="Slow Grub Banner" class="hero-image">
@@ -16,46 +8,13 @@ layout: default
     <p>Please check this page for our latest event updates, news and opportunities to get involved alongside our thought leadership on the sustainability measurement.</p>
 </section>
 
-<!-- Blog Entry -->
-<div class="blog-entry">
-    
-    <!-- Video Content -->
-    <div class="multimedia video">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/sGG-A80Tl5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% for post in site.posts %}
+    <div class="blog-entry">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.date | date: "%B %d, %Y" }}</p> <!-- Display post date -->
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">Read more...</a>
     </div>
+{% endfor %}
 
-    <!-- Text Content -->
-    <div class="multimedia text">
-        <h2>Slow Grub's Remote Work Model - A Step Towards Sustainability</h2>
-        <!-- The rest of your blog content here -->
-    </div>
-    
-    <!-- Comments -->
-    <div id="comments">
-        <!-- Comments will appear here -->
-    </div>
-</div>
-
-<!-- Another Blog Entry -->
-<div class="blog-entry">
-    
-    <!-- Video Content -->
-    <div class="multimedia video">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/nUnJQWO4YJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-
-    <!-- Audio Content -->
-    <div class="multimedia audio">
-        <!-- Embed your audio or podcast here -->
-    </div>
-
-    <!-- Text Content -->
-    <div class="multimedia text">
-        <!-- Your blog content here -->
-    </div>
-    
-    <!-- Comments -->
-    <div id="comments">
-        <!-- Comments will appear here -->
-    </div>
-</div>
+<!-- If you have a specific purpose for the static "Blog Entry" sections below, keep them. Otherwise, you can remove them. -->
