@@ -1,3 +1,31 @@
+/* Basic Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro', sans-serif;
+    color: #B24B0D;
+    background-color: #F7EDE7;
+    text-align: center;
+}
+
+/* Center and justify text */
+p, h1, h2, h3, li {
+    text-align: justify;
+    text-justify: inter-word; /* Improve justification */
+}
+
+/* Center inline elements like links */
+a {
+    display: inline-block;
+}
+
+/* To ensure images and other block-level elements within sections are centered */
+section > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Get Involved Section */
 .center-content {
     text-align: center;
@@ -15,26 +43,18 @@
 
 .cta-button {
     padding: 10px 20px;
-    background-color: #B24B0D;  /* change this color to fit your design */
-    color: #F7EDE7; 
+    background-color: #B24B0D;
+    color: #F7EDE7;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s;
-
-    /* Adding a hover effect */
-    &:hover {
-        background-color: #F7EDE7;
-        color: #B24B0D;
-    }
 }
 
-/* To ensure images and other block-level elements within sections are centered */
-section > * {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.cta-button:hover {
+    background-color: #F7EDE7;
+    color: #B24B0D;
 }
 
 /* Multimedia placeholders for blog */
@@ -51,6 +71,7 @@ section > * {
     color: #B24B0D;
 }
 
+/* Multimedia Variants */
 .multimedia.audio {
     /* Additional stylings for audio if required */
 }
@@ -79,108 +100,24 @@ section > * {
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex-direction: row;  /* This ensures the items are in a single line horizontally */
-    gap: 15px; /* Adds some spacing between social media links */
+    flex-direction: row;  /* Ensure the items are in a single line horizontally */
+    gap: 15px; /* Add some spacing between social media links */
 }
 
-
-/* Footer */
+/* Footer Styles */
 footer {
     background-color: #B24B0D;
+    color: #F7EDE7;
+    text-align: center;
+    padding: 20px;
 }
 
 footer a, footer a:visited {
     color: #F7EDE7;
+    text-decoration: underline;
 }
 
 footer a:hover, footer a:focus {
     color: #B24B0D;
     background-color: #F7EDE7;
-}
-
-/* ... (rest of your CSS remains unchanged) ... */
-
-/* Get Involved Section */
-.center-content {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cta-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;  /* spacing between buttons */
-    margin-top: 20px;
-}
-
-.cta-button {
-    padding: 10px 20px;
-    background-color: #B24B0D;  /* change this color to fit your design */
-    color: #F7EDE7; 
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-
-    /* Adding a hover effect */
-    &:hover {
-        background-color: #F7EDE7;
-        color: #B24B0D;
-    }
-}
-
-/* To ensure images and other block-level elements within sections are centered */
-section > * {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Multimedia placeholders for blog */
-.multimedia {
-    background: #B24B0D;
-    color: #F7EDE7;
-    padding: 20px;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-}
-
-.multimedia:hover {
-    background: #F7EDE7;
-    color: #B24B0D;
-}
-
-.multimedia.audio {
-    /* Additional stylings for audio if required */
-}
-
-.multimedia.video {
-    /* Additional stylings for video if required */
-}
-
-/* Responsive Styles */
-@media only screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .container {
-        padding: 0 10px;
-    }
-}
-
-#social-media.center-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: row;  /* This ensures the items are in a single line horizontally */
-    gap: 15px; /* Adds some spacing between social media links */
 }
