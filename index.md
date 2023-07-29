@@ -3,10 +3,11 @@ layout: default
 ---
 
 <!-- Hero Section (App Look) -->
-<section id="app-look">
-    <img src="branding/App Mockscreen.png" alt="Slow Grub App Look" class="hero-image">
-    <h1>Slow Grub</h1>
-    <p>Helping consumers support low emitting restaurants.</p>
+<section id="app-look" class="full-width-section">
+    <h1>What? "An app to help you cut your food's impact on climate"</h1>
+    <p>Track, explore, and enhance your eco-friendly food habits.</p>
+    <p>Discover sustainable grub spots nearby.</p>
+    <p>Empower your food choices with sustainability insights.</p>
 </section>
 
 <!-- Get Involved Section -->
@@ -23,10 +24,10 @@ layout: default
 <section id="problems" class="center-content">
     <h2>🌍 Challenges We Address </h2>
     <ul>
-        <li>Lack of digital tools to track food emissions.</li>
-        <li>Connecting eco-friendly restaurants with consumers.</li>
-        <li>Greenwashing undermining trust.</li>
-        <li>Missing nutrition scores in the food service landscape.</li>
+        <li>🛑Lack of digital tools to track food emissions.</li>
+        <li>🛑Connecting eco-friendly restaurants with consumers.</li>
+        <li>🛑Greenwashing undermining trust.</li>
+        <li>🛑Missing nutrition scores in the food service landscape.</li>
     </ul>
 </section>
 
