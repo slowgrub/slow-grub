@@ -19,6 +19,17 @@ body, html {
     padding: 0 20px;
 }
 
+.full-width-section {
+    text-align: center;
+}
+
+.full-width-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centering the image */
+}
+
 /* Center and justify text */
 p, h1, h2, h3, li {
     text-align: justify;
