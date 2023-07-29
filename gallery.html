@@ -1,0 +1,16 @@
+---
+layout: default
+title: Gallery
+---
+
+<div class="container">
+    <h1 style="text-align: center;">Gallery</h1>
+    <div class="gallery-grid">
+        {% for image in site.data.gallery %}
+            <div class="gallery-item">
+                <img src="{{ image.url }}" alt="{{ image.caption }}">
+                <p>{{ image.caption }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
