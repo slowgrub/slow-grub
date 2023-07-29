@@ -85,6 +85,24 @@ nav a:hover {
     background-color: #F7EDE7;
     color: #B24B0D;
 }
+.team-member {
+    text-align: center;  /* Center the text */
+    display: flex;  /* Use flexbox for centering and layout */
+    flex-direction: column;  /* Stack children vertically */
+    align-items: center;  /* Center children horizontally */
+    justify-content: center;  /* Center children vertically */
+    margin: 20px;  /* Space between team members */
+}
+
+.team-member img {
+    width: 100px;  /* Adjust this value as per your preference */
+    height: 100px;  /* Adjust this value as per your preference */
+    border-radius: 50%;  /* Makes the image circular */
+    object-fit: cover;  /* Ensures image covers the space without distortion */
+    margin-bottom: 10px;  /* Space between image and name */
+}
+
+/* Other styles for name, title, and link can be added if needed */
 
 /* Multimedia placeholders for blog */
 .multimedia {
