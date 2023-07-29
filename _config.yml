@@ -25,5 +25,7 @@ nav:
     url: "#team"
   - title: "📖 Blog"
     url: "blogs.html"
+  - title: "🖼️ Gallery"
+    url: "/gallery.html"
 
 # Add any other configurations below as needed
