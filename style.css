@@ -21,6 +21,9 @@ body, html {
 
 .full-width-section {
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Centers block-level children horizontally */
 }
 
 .full-width-section img {
