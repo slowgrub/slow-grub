@@ -31,5 +31,15 @@
     <!-- Optional scripts -->
     <!-- <script src="{{ '/path_to_script.js' | relative_url }}"></script> -->
 <a href="#" id="back-to-top" style="display: none;"><img src="/path_to_icons/up-arrow.png" alt="Back to Top"></a>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+}
+
 </body>
 </html>
