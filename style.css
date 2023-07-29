@@ -26,6 +26,35 @@ section > * {
     margin-right: auto;
 }
 
+/* Navigation Bar */
+nav {
+    background-color: #B24B0D;
+    padding: 5px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #F7EDE7;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #F7EDE7;
+    color: #B24B0D;
+}
+
 /* Get Involved Section */
 .center-content {
     text-align: center;
