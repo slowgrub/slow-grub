@@ -48,18 +48,28 @@ nav a:hover {
     color: #B24B0D;
 }
 
-/* To ensure navbar elements are horizontal */
+/* Adjustments for navigation */
 nav ul {
     display: flex;
     justify-content: center;
-    list-style: none;  /* Removes bullet points */
-    padding: 0;        /* Removes default padding */
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
 }
 
 nav li {
-    margin: 0 15px;    /* Spacing between nav items */
+    margin: 0 15px; /* Adjusts spacing between nav items */
 }
 
+/* Centering content in header and footer */
+header, footer {
+    text-align: center;
+}
+
+/* Centering 'Meet the Team' section */
+.team-member {
+    text-align: center;
+    margin: 20px auto; /* Auto margin on sides for center alignment */
+}
 /* Get Involved Section */
 .center-content {
     text-align: center;
