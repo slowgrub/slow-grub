@@ -12,9 +12,12 @@ layout: default
 <!-- Get Involved Section -->
 <section id="get-involved" class="center-content">
     <h2>Get Involved</h2>
-    <a href="https://wemakeit.com/channels/epfl?locale=en" class="cta-button">Help us raise funds to develop our app</a>
-    <a href="https://forms.gle/jSnLZz8VALAmCsTD9" class="cta-button">Sign up as Slow Grubbers beta tester</a>
+    <div class="cta-container">
+        <a href="https://wemakeit.com/channels/epfl?locale=en" class="cta-button">Help us raise funds to develop our app</a>
+        <a href="https://forms.gle/jSnLZz8VALAmCsTD9" class="cta-button">Sign up as Slow Grubbers beta tester</a>
+    </div>
 </section>
+
 
 <!-- Challenges Section -->
 <section id="problems" class="center-content">
