@@ -142,26 +142,27 @@ nav a:hover {
     }
 }
 
-#social-media.center-content {
+/* Footer Styles */
+footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: row;  /* Ensure the items are in a single line horizontally */
-    gap: 15px; /* Add some spacing between social media links */
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers block-level children horizontally */
+    justify-content: center; /* Centers block-level children vertically */
+    background-color: #B24B0D;
+    color: #F7EDE7;
+    padding: 20px;
 }
 
-/* Footer Styles */
 footer > * {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-footer {
-    background-color: #B24B0D;
-    color: #F7EDE7;
-    text-align: center;
-    padding: 20px;
+
+#social-media {
+    display: flex; /* Makes its children line up horizontally */
+    justify-content: center; /* Centers them horizontally */
+    gap: 10px; /* Provides space between the links */
 }
 
 footer a, footer a:visited {
