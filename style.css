@@ -10,8 +10,12 @@ body, html {
 
 /* Center everything in the container */
 .container {
-    text-align: center;
+    max-width: 1200px; /* or whatever max width you want */
+    margin: 0 auto;
+    text-align: left;  /* aligns text and other inline content to the left */
+    padding: 0 20px;
 }
+
 
 /* Center and justify text */
 p, h1, h2, h3, li {
@@ -50,15 +54,17 @@ nav a:hover {
 
 /* Adjustments for navigation */
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none; /* Removes bullets */
-    padding: 0; /* Removes default padding */
+    list-style: none;  /* removes bullets */
+    padding: 0;
+    display: flex;  /* displays list items in a row */
+    justify-content: center;  /* centers the list items */
+    gap: 20px;  /* adds space between list items */
 }
 
 nav li {
-    margin: 0 15px; /* Adjusts spacing between nav items */
+    display: inline-block;
 }
+
 
 /* Centering content in header and footer */
 header, footer {
