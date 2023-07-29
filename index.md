@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div class="container">
 <!-- Hero Section (App Look) -->
 <section id="app-look" class="full-width-section">
     <h1>What? "An app to help you cut your food's impact on climate"</h1>
@@ -74,3 +74,4 @@ layout: default
     <a href="https://www.instagram.com/slowgrub/" target="_blank">Instagram</a>
     <a href="https://github.com/slowgrub/slow-grub" target="_blank">GitHub</a>
 </section>
+</div>
