@@ -258,3 +258,20 @@ footer a:hover, footer a:focus {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#back-to-top:hover {
+    background-color: var(--secondary-color);
+}
+
