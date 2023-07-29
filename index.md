@@ -2,17 +2,6 @@
 layout: default
 ---
 <div class="container">
-    <!-- Navbar -->
-    <nav>
-        <ul>
-            <li><a href="#app-look">🌱 App Look</a></li>
-            <li><a href="#get-involved">🌱 Join Us</a></li>
-            <li><a href="#problems">🌱 Problems We Solve</a></li>
-            <li><a href="#achievements">🌱 Achievements</a></li>
-            <li><a href="#team">🌱 Meet the Team</a></li>
-        </ul>
-    </nav>
-
    <!-- Hero Section -->
 <section id="app-look" class="full-width-section">
     <img src="branding/App Mockscreen.png" alt="app mockup">
