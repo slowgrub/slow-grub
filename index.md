@@ -4,8 +4,8 @@ layout: default
 <div class="container">
 <!-- Hero Section (App Look) -->
 <section id="app-look" class="full-width-section">
-    <h1>What? "An app to help you cut your food's impact on climate"</h1>
-    <p>Track, explore, and enhance your eco-friendly food habits.</p>
+    <h1>An app to help you cut your food's impact on climate</h1>
+    <p>How? <br>Track, explore, and enhance your eco-friendly food habits.</p>
     <p>Discover sustainable grub spots nearby.</p>
     <p>Empower your food choices with sustainability insights.</p>
 </section>
