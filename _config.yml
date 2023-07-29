@@ -1,16 +1,17 @@
-# Site settings
+# Site Meta Information
 title: Slow Grub
-description: Helping consumers support low emitting restaurants.
-baseurl: ""  # the subpath of your site, e.g. /blog
-url: "http://www.slowgrub.com"  # the base hostname & protocol for your site
-theme: minima  # assuming you are using the default minima theme
+description: An app to help you cut your food's impact on climate
+url: "http://www.slowgrub.com"  # Base hostname & protocol for the site
+baseurl: ""  # Subpath of your site, e.g., /blog
+theme: minima  # Assuming you are using the default minima theme
 
-# Build settings
+# Build Configuration
 markdown: kramdown
 plugins:
   - jekyll-feed
 
 # Navigation Bar
+# List of items to be displayed on the navbar
 nav:
   - title: "🌱 App Look"
     url: "#app-look"
