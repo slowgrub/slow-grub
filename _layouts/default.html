@@ -6,6 +6,42 @@
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=SF+Pro:wght@400;600&display=swap" rel="stylesheet">
     <title>Slow Grub</title>
+    <style>
+        /* Basic branding colors */
+        :root {
+            --primary-color: #B24B0D;
+            --secondary-color: #F7EDE7;
+        }
+
+        body {
+            font-family: 'SF Pro', sans-serif;
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--secondary-color);
+            background-color: var(--primary-color);
+        }
+
+        header, nav, footer {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 10px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
