@@ -37,25 +37,13 @@ section, .team-members, nav ul {
 
 /* Navigation Bar */
 nav {
-    background-color: #B24B0D;
-    padding: 10px 0;
+    text-align: center; /* Center the entire navigation */
 }
 
-nav a {
-    color: #F7EDE7;
-    padding: 5px 10px;
-    transition: background-color 0.3s;
-}
-
-nav a:hover {
-    background-color: #F7EDE7;
-    color: #B24B0D;
-}
-
-/* Adjustments for navigation */
 nav ul {
     list-style: none;  /* removes bullets */
     padding: 0;
+    margin: 0; /* Remove default margins */
     display: flex;  /* displays list items in a row */
     justify-content: center;  /* centers the list items */
     gap: 20px;  /* adds space between list items */
@@ -64,6 +52,19 @@ nav ul {
 nav li {
     display: inline-block;
 }
+
+nav a {
+    padding: 5px 10px; /* This gives some space around the links, making them more clickable */
+    text-decoration: none; /* This removes the underline from the links */
+    color: inherit; /* This ensures the links use the color of their parent elements */
+    transition: 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav a:hover {
+    background-color: #F7EDE7;  /* Background color for hover effect */
+    color: #B24B0D;  /* Text color on hover */
+}
+
 
 
 /* Centering content in header and footer */
