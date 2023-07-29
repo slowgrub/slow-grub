@@ -7,16 +7,15 @@
     <title>Slow Grub Blog</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#app-look">🌱 App Look</a></li>
-            <li><a href="#get-involved">🌱 Join Us</a></li>
-            <li><a href="#problems">🌱 Problems We Solve</a></li>
-            <li><a href="#achievements">🌱 Achievements</a></li>
-            <li><a href="#team">🌱 Meet the Team</a></li>
-            <li><a href="blogs.html">📖 Blog</a></li>
-        </ul>
-    </nav>
+ <!-- Navbar -->
+<nav>
+    <ul>
+        {% for link in site.nav %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+
 
     <div class="container">
         
