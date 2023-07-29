@@ -31,14 +31,21 @@ section, .team-members, nav ul {
 }
 
 /* For the navbar, to ensure it remains horizontally centered */
+/* Navigation Bar */
 nav {
-    background-color: #desiredColor;
+    background-color: #B24B0D;  /* Standard color */
+    padding: 10px 0;  /* Add some padding to the top and bottom */
 }
-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 0;
+
+nav a {
+    color: #F7EDE7;  /* Background color, making the text contrast against the dark nav background */
+    padding: 5px 10px;  /* Optional: Add some padding to links for better spacing and clickability */
+    transition: background-color 0.3s;  /* Optional: Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background-color: #F7EDE7;  /* Background color for hover effect */
+    color: #B24B0D;  /* Standard color for text on hover */
 }
 
 /* Get Involved Section */
