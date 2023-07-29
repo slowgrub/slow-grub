@@ -13,14 +13,15 @@ layout: default
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="app-look" class="full-width-section">
-        <img src="branding/App Mockscreen.png" alt="app mockup">
-        <h1>An app to help you cut your food's impact on climate</h1>
-        <p>How? <br>Track, explore, and enhance your eco-friendly food habits.</p>
-        <p>Discover sustainable grub spots nearby.</p>
-        <p>Empower your food choices with sustainability insights.</p>
-    </section>
+   <!-- Hero Section -->
+<section id="app-look" class="full-width-section">
+    <img src="branding/App Mockscreen.png" alt="app mockup">
+    <h1>An app to help you cut your food's impact on climate</h1>
+    <p>How? <br>Track, explore, and enhance your eco-friendly food habits.</p>
+    <p>Discover sustainable grub spots nearby.</p>
+    <p>Empower your food choices with sustainability insights.</p>
+</section>
+
 </div>
 
 
