@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My First Blog Post"
+title:  "Slow Grub's Remote Work Model - A Step Towards Sustainability"
 ---
 
 Slow Grub's Remote Work Model - A Step Towards Sustainability
