@@ -53,7 +53,7 @@ layout: default
         <div class="team-member">
             <img src="branding/rahul.png" alt="Rahul Jha">
             <p>Rahul Jha</p>
-            <p>PhD in Management at UNIGE, MBA/Telecommunication Engineering</p>
+            <p>PhD candidate in Management at UNIGE, MBA/Telecommunication Engineering</p>
             <a href="https://www.linkedin.com/in/r-jha/" target="_blank">LinkedIn</a>
         </div>
         <div class="team-member">
