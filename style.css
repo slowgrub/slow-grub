@@ -132,6 +132,29 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+#supported-by {
+    text-align: center;
+}
+
+.supporting-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between logos */
+}
+
+.logo-item img {
+    max-width: 150px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-item p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
 /* Multimedia placeholders for blog */
 .multimedia {
     background: var(--primary-color);
