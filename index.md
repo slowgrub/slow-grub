@@ -72,23 +72,24 @@ layout: default
 </section>
 
 <!-- Supported By Section -->
-    <section id="supported-by" class="center-content">
-        <h2>Supported by</h2>
-        <div class="supporting-logos">
-            <div class="logo-item">
-                <img src="branding/Microsoft-for-Startups.jpg" alt="Microsoft">
-                <p>Microsoft</p>
-            </div>
-            <div class="logo-item">
-                <img src="branding/Innosuisse.jpeg" alt="EPFL Innovation Park">
-                <p>EPFL Innovation Park</p>
-            </div>
-            <div class="logo-item">
-                <img src="branding/enabled-by-design.png" alt="EPFL Startup Support">
-                <p>EPFL Startup Support</p>
-            </div>
+<section id="supported-by" class="center-content">
+    <h2>Supported by</h2>
+    <div class="supporting-logos">
+        <div class="logo-item">
+            <img src="branding/Microsoft-for-Startups.jpg" alt="Microsoft">
+            <p>Microsoft</p>
         </div>
-    </section>
+        <div class="logo-item">
+            <img src="branding/Innosuisse.jpeg" alt="EPFL Innovation Park">
+            <p>EPFL Innovation Park</p>
+        </div>
+        <div class="logo-item">
+            <img src="branding/enabled-by-design.png" alt="EPFL Startup Support">
+            <p>EPFL Startup Support</p>
+        </div>
+    </div>
+</section>
 </div>
+
 
 <!-- </div> -->
