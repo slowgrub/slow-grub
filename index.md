@@ -62,12 +62,6 @@ layout: default
             <p>Data Science expert, MSc in Physics, PhD at EPFL</p>
             <a href="https://www.linkedin.com/in/gianroccolazzari/" target="_blank">LinkedIn</a>
         </div>
-        <div class="team-member">
-            <img src="branding/lorna.png" alt="Lorna Muddiman">
-            <p>Lorna Muddiman</p>
-            <p>Human Rights, ex Twitter, Tech Policy specialist</p>
-            <a href="https://www.linkedin.com/in/lorna-m/" target="_blank">LinkedIn</a>
-        </div>
     </div>
 </section>
 
